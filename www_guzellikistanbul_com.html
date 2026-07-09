@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İstanbul Güzellik Merkezi | Cilt Bakımı, Epilasyon</title>
+    <meta name="description" content="Cilt bakımı, lazer epilasyon, kalıcı makyaj ve zayıflama hizmetleri.">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter:wght@300;400;600;700', sans-serif; background: #f4f6f9; color: #222; line-height: 1.6; }
+        .container { max-width: 1200px; margin: auto; padding: 0 25px; }
+        header { background: #1a2a3a; color: #fff; padding: 20px 0; border-bottom: 5px solid #e67e22; }
+        header .flex { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+        header .logo { font-size: 28px; font-weight: 700; }
+        header .logo span { color: #e67e22; }
+        nav a { color: #fff; opacity: 0.8; margin-left: 25px; text-decoration: none; font-weight: 500; }
+        nav a:hover { opacity: 1; color: #e67e22; }
+        .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=400&fit=crop'); background-size: cover; background-position: center; color: #fff; padding: 80px 20px; text-align: center; border-radius: 20px; margin: 40px 0; }
+        .hero h2 { font-size: 42px; font-weight: 700; }
+        .hero p { font-size: 18px; max-width: 650px; margin: 20px auto; opacity: 0.9; }
+        .hero .btn { background: #e67e22; color: #fff; padding: 14px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; display: inline-block; margin-top: 20px; transition: 0.3s; }
+        .hero .btn:hover { background: #fff; color: #1a2a3a; }
+        .section { padding: 50px 0; }
+        .section h2 { font-size: 34px; font-weight: 700; color: #1a2a3a; margin-bottom: 10px; }
+        .section p.sub { color: #777; font-size: 18px; margin-bottom: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 30px; }
+        .service-card { background: #fff; padding: 30px 20px; border-radius: 16px; box-shadow: 0 8px 25px rgba(0,0,0,0.06); text-align: center; border-top: 4px solid #e67e22; transition: 0.3s; }
+        .service-card:hover { transform: translateY(-6px); box-shadow: 0 12px 35px rgba(0,0,0,0.12); }
+        .service-card .icon { font-size: 32px; color: #e67e22; margin-bottom: 12px; }
+        .service-card h3 { color: #1a2a3a; font-size: 20px; margin-bottom: 8px; }
+        .service-card p { color: #666; font-size: 14px; }
+        .about { background: #fff; padding: 40px; border-radius: 16px; box-shadow: 0 6px 20px rgba(0,0,0,0.05); margin: 40px 0; border-left: 6px solid #e67e22; }
+        .about h3 { color: #1a2a3a; font-size: 28px; margin-bottom: 15px; }
+        .about p { color: #555; font-size: 17px; }
+        .contact { background: #1a2a3a; color: #fff; padding: 40px; border-radius: 16px; text-align: center; margin: 40px 0; }
+        .contact h3 { font-size: 28px; }
+        .contact p { margin: 8px 0; opacity: 0.9; }
+        .contact .btn { background: #e67e22; color: #fff; padding: 14px 40px; border-radius: 50px; text-decoration: none; font-weight: 600; display: inline-block; margin-top: 15px; transition: 0.3s; }
+        .contact .btn:hover { background: #fff; color: #1a2a3a; }
+        footer { background: #1a2a3a; color: #aaa; padding: 25px 0; text-align: center; border-top: 4px solid #e67e22; }
+        footer a { color: #ddd; text-decoration: none; }
+        @media (max-width: 768px) { header .flex { flex-direction: column; gap: 15px; } nav a { margin-left: 15px; } .hero h2 { font-size: 30px; } .grid { grid-template-columns: 1fr; } }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container flex">
+        <div class="logo"><span>✦</span> İstanbul Guzellik</div>
+        <nav>
+            <a href="#">Ana Sayfa</a>
+            <a href="#">Hizmetler</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <div class="hero">
+        <h2>İstanbul Güzellik Merkezi | Cilt Bakımı, Epilasyon</h2>
+        <p>Cilt bakımı, lazer epilasyon, kalıcı makyaj ve zayıflama hizmetleri.</p>
+        <a href="#contact" class="btn">📩 Teklif Al</a>
+    </div>
+
+    <section class="section">
+        <h2>Hizmetlerimiz</h2>
+        <p class="sub">Size özel çözümler ve profesyonel hizmet anlayışı</p>
+        <div class="grid"><div class="service-card"><div class="icon">✦</div><h3>Cilt Bakımı</h3><p>Profesyonel ekibimiz ile cilt bakımı hizmeti.</p></div><div class="service-card"><div class="icon">✦</div><h3>Lazer Epilasyon</h3><p>Profesyonel ekibimiz ile lazer epilasyon hizmeti.</p></div><div class="service-card"><div class="icon">✦</div><h3>Kalıcı Makyaj</h3><p>Profesyonel ekibimiz ile kalıcı makyaj hizmeti.</p></div><div class="service-card"><div class="icon">✦</div><h3>Zayıflama</h3><p>Profesyonel ekibimiz ile zayıflama hizmeti.</p></div></div><h3>Hizmet 1</h3><p>Profesyonel ekibimiz ile hizmet.</p></div>
+            <div class="service-card"><div class="icon">✦</div><h3>Hizmet 2</h3><p>Profesyonel ekibimiz ile hizmet.</p></div>
+            <div class="service-card"><div class="icon">✦</div><h3>Hizmet 3</h3><p>Profesyonel ekibimiz ile hizmet.</p></div>
+            <div class="service-card"><div class="icon">✦</div><h3>Hizmet 4</h3><p>Profesyonel ekibimiz ile hizmet.</p></div>
+        </div>
+    </section>
+
+    <div class="about">
+        <h3>Hakkımızda</h3>
+        <p>İstanbul'da uzman güzellik merkezi ile güzelliğinizi keşfedin. Kişiye özel çözümler.</p>
+    </div>
+
+    <div id="contact" class="contact">
+        <h3>📩 Bize Ulaşın</h3>
+        <p><strong>E-posta:</strong> agenticfuture.media@gmail.com</p>
+        <p><strong>Adres:</strong> İstanbul, Türkiye</p>
+        <a href="mailto:agenticfuture.media@gmail.com" class="btn">✉️ E-posta Gönder</a>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 İstanbul Guzellik | Tüm hakları saklıdır.</p>
+        <p><a href="mailto:agenticfuture.media@gmail.com">agenticfuture.media@gmail.com</a></p>
+    </div>
+</footer>
+</body>
+</html>
