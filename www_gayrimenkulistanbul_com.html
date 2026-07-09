@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İstanbul Emlak | Konut, Arsa, İş Yeri</title>
+    <meta name="description" content="İstanbul'da satılık ve kiralık konut, arsa, iş yeri seçenekleri. En uygun fiyatlı gayrimenkul hizmeti.">
+    <meta name="keywords" content="emlak, konut, arsa, kiralık daire, satılık ev, İstanbul">
+    <link href="https://fonts.googleapis.com/css2?family='Segoe+UI',+sans-serif&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: #f8f9fa; color: #333; line-height: 1.6; }
+        a { text-decoration: none; }
+        .container { max-width: 1200px; margin: auto; padding: 0 20px; }
+
+        /* HEADER */
+        header { background: #fcf8e7; color: #fff; padding: 20px 0; }
+        header .logo { font-size: 26px; font-weight: 700; }
+        header .badge { background: #e67e22; padding: 4px 15px; border-radius: 30px; font-size: 12px; display: inline-block; margin-left: 10px; }
+        nav { display: flex; gap: 25px; align-items: center; flex-wrap: wrap; }
+        nav a { color: #fff; opacity: 0.8; font-weight: 500; }
+        nav a:hover { opacity: 1; }
+
+        /* HERO */
+        .hero { background: #fcf8e7; color: #fff; padding: 80px 20px; text-align: center; border-radius: 16px; margin: 30px 0; }
+        .hero h2 { font-size: 40px; font-weight: 700; margin-bottom: 15px; }
+        .hero p { font-size: 18px; max-width: 700px; margin: auto; opacity: 0.9; }
+        .hero .btn { display: inline-block; background: #e67e22; color: #fff; padding: 14px 40px; border-radius: 50px; font-weight: 600; margin-top: 20px; }
+
+        /* HİZMETLER */
+        .section { padding: 50px 0; }
+        .section-title { font-size: 32px; font-weight: 700; color: #fcf8e7; margin-bottom: 15px; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 25px; }
+        .service-card { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.08); text-align: center; border-top: 4px solid #fcf8e7; }
+        .service-card h4 { color: #fcf8e7; margin-bottom: 10px; }
+
+        /* HAKKIMIZDA */
+        .about-box { background: #fff; padding: 35px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.06); margin: 30px 0; border-left: 6px solid #fcf8e7; }
+
+        /* İLETİŞİM */
+        .contact-box { background: #fcf8e7; color: #fff; padding: 35px; border-radius: 12px; text-align: center; margin: 30px 0; }
+        .contact-box .btn { background: #e67e22; color: #fff; padding: 12px 35px; border-radius: 50px; display: inline-block; margin-top: 15px; }
+
+        /* FOOTER */
+        footer { background: #fcf8e7; color: #aaa; padding: 25px 0; text-align: center; margin-top: 30px; }
+        footer a { color: #ddd; }
+
+        @media (max-width: 768px) {
+            .hero h2 { font-size: 28px; }
+            .services-grid { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;">
+        <div class="logo">✦ Premium Emlak <span class="badge">✅ En İyi</span></div>
+        <nav>
+            <a href="#">Ana Sayfa</a>
+            <a href="#">Hizmetler</a>
+            <a href="#">Hakkımızda</a>
+            <a href="#contact">İletişim</a>
+        </nav>
+    </div>
+</header>
+
+<div class="container">
+    <div class="hero">
+        <h2>İstanbul'da Emlak Hizmetinde En İyi Çözüm</h2>
+        <p>Artık tahminle değil, veriyle karar ver! Değer analizi yapılmış, yatırım skoruyla puanlanmış akıllı ilanlar Emlakjet'te. Yapay zeka destekli aramayla hayalindeki kiralık ve satılık ev, işyeri ve arsayı keşfet!</p>
+        <a href="#contact" class="btn">📩 Teklif Al</a>
+    </div>
+
+    <section class="section">
+        <h3 class="section-title">Hizmetlerimiz</h3>
+        <div class="services-grid">
+            <div class="service-card"><h4>Uzman Hizmet</h4><p>Profesyonel ekibimizle</p></div>
+            <div class="service-card"><h4>Uygun Fiyat</h4><p>Her bütçeye uygun</p></div>
+            <div class="service-card"><h4>Hızlı Çözüm</h4><p>Zamanında teslim</p></div>
+            <div class="service-card"><h4>Memnuniyet</h4><p>7/24 destek</p></div>
+        </div>
+    </section>
+
+    <div class="about-box">
+        <h3>Hakkımızda</h3>
+        <p>İstanbul'da 10 yıllık tecrübe ile gayrimenkul danışmanlığı hizmeti sunuyoruz.</p>
+    </div>
+
+    <div id="contact" class="contact-box">
+        <h3>📩 Bize Ulaşın</h3>
+        <p><strong>E-posta:</strong> agenticfuture.media@gmail.com</p>
+        <p><strong>Adres:</strong> İstanbul, Türkiye</p>
+        <a href="mailto:agenticfuture.media@gmail.com" class="btn">✉️ E-posta Gönder</a>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Premium Emlak | Tüm hakları saklıdır.</p>
+        <p><a href="mailto:agenticfuture.media@gmail.com">agenticfuture.media@gmail.com</a></p>
+    </div>
+</footer>
+</body>
+</html>
